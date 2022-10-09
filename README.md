@@ -1,0 +1,13 @@
+# Introduction
+Intuitions are an invaluable tool in grasping complex data science concepts. They wrap the complex concept, say neural networks, in a narrative that explains something about the nature of the concept. The narrative helps us look at the concept from a holistic angle, binding all the constituient parts of the concept (neurons, activation function, weights, biases) in one big conherent narrative. From this coherent narrative it Is easier to really grasp the concept, even when going down to the details. 
+
+I plan to write an article that collects a great many interesting data science related intuitions. Where possible I will provide the source where I got the intuition from, but some of them I can either not remember the source, or they are my own intuitions. Any omissions in this are strictly my own. 
+
+The idea for the article is to take some or all of the intuitions below and expand them into an article. 
+
+# List of intuitions
+
+- Neural networks can be see as representation building machines. They take the input data, say an image, and through multiple network layers build more and more complex representations of the input image. By training the network we find the representations that most effectively solve the problem we want to solve, e.g. determine if there is a cat on the image or not. (*From Deep Learning in Python (2nd edition) by Francois Chollet*). 
+- Neural networks provide a generalisation of many other more traditional statistical methods. For example, the first layer of a strictly dense network looks a lot like a Principal Component Analysis. Therefore, if correctly configured a simple dense network might exactly mimic Princliple Component Regression (*no source*). 
+- Neural networks seem like a magical machine that can solve problems by simply feeding it data. THis is however not the case, neural networks still take a lot of configuration and experimentation. The intuituin here is that in neural networks we do not solve the problem directly, but we build a (reprepsentation) machine that solves the problem for us. COnfiguring this machine (amount of layers, types of layers, etc) is still a task we need to perform, but the network can solve problems we deemded unsolvable just a few years ago. 
+- Classification can be seen as drawing optimal boundaries between training samples in the hyperdimensional space spanned by the training features. Different types of regression can draw different types of boundaries. 
