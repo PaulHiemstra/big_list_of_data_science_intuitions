@@ -6,5 +6,6 @@
     "ms-python.python",
     "ms-python.vscode-pylance",
     "ms-toolsai.jupyter"
-  ]
+  ],
+  "postCreateCommand": "pip3 install -r requirements.txt"
 }
